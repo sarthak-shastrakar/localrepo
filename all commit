@@ -13,3 +13,13 @@ git config --list
         1.mkdir "new repo name"
         2.git commit -m "Add Initial Files"
         3.git remote add origin "link"
+        4.git remote -v
+        5.git branch
+        6.git branch -M main
+        7.git push origin main
+
+8.branch command -> 1.git branch
+                    2.git branch -M main
+                    3.git checkout (branched name) - which branch you want to go.
+                    4.git checkout -b (new branch name)
+                    5.git branch -d (delete branch name)
