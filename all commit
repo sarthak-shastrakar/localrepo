@@ -1,0 +1,15 @@
+1.git config --global user.name ""
+2.git config --global user.email ""
+git config --list
+
+3.clone & status :--1.git clone link(http)
+                  2.cd -- >change directory || cd .. (remove from directory)
+                  3.git status (show status of up todate)
+
+4.git add (file name)/ git add .
+5.git commit -m "messege to add"
+6.git push origin main
+7.init -> to create a new repo
+        1.mkdir "new repo name"
+        2.git commit -m "Add Initial Files"
+        3.git remote add origin "link"
